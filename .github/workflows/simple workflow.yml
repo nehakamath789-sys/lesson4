@@ -1,16 +1,16 @@
-name: Workflow Overview
+name: workflow overview
 
 on:
   workflow_dispatch: 
 
 jobs:
   a_simple_job:
-   name: My first job
+   name: my first job
    runs-on: ubuntu-latest
    steps:
     - name: name of my step
       id: stepId
-      run: This is the first step from my job
+      run: this is the first step from my job
     - name: step with another shell
       id: shellStep
       shell: python
